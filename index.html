@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>El secreto de San Galgano</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=IM+Fell+English:ital@0;1&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <body>
+
+    <audio id="musicaFondo" loop>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="ornamento superior">
+        ❦ ─────────────── ✦ ─────────────── ❦
+    </div>
+
+
+    <main class="libro">
+
+        <!-- TÍTULO -->
+        <header class="portada">
+
+            <p class="pequeno">UNA HISTORIA INTERACTIVA</p>
+
+            <h1>El secreto de<br>San Galgano</h1>
+
+            <div class="linea"></div>
+
+            <p class="subtitulo">
+                Una búsqueda entre ruinas, secretos y reliquias olvidadas
+            </p>
+
+            <button class="boton-prologo" onclick="irAlPrologo()">
+                PRÓLOGO
+            </button>
+
+        </header>
+
+
+        <!-- CONTENEDOR DE HISTORIA -->
+        <section class="historia">
+
+            <!-- PRÓLOGO -->
+
+            <article class="capitulo activo" id="prologo">
+
+                <p class="numero">PRÓLOGO</p>
+
+                <h2>La leyenda perdida</h2>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Durante siglos, la Abadía de San Galgano guardó un secreto
+                    que nadie logró demostrar. La leyenda decía que, tras
+                    abandonar la guerra y dedicar su vida a la paz, el caballero
+                    San Galgano ocultó sus pertenencias más valiosas como su
+                    casco, su armadura y su escudo en una cámara secreta bajo
+                    la abadía.
+                </p>
+
+                <p>
+                    Pero la entrada quedó perdida entre las ruinas, que luego
+                    fueron ocultas por construcciones de la actualidad, aunque
+                    parte sigue vigente como patrimonio histórico.
+                </p>
+
+                <p>
+                    Décadas atrás, tu abuela dedicó gran parte de su vida a
+                    descubrir los secretos ocultos de décadas pasadas, reuniendo pistas
+                    en un viejo cuaderno de cuero. Estuvo muy cerca de encontrar
+                    esta leyenda.
+                </p>
+
+                <p>
+                    Ahora ese cuaderno llegó a tus manos…
+                </p>
+
+                <p>
+                    Vos sos <strong>Giulia Rossi</strong>, arqueóloga e
+                    historiadora. Después de la muerte de tu abuela, descubrís
+                    que la búsqueda inconclusa de toda su vida puede convertirse
+                    en la tuya.
+                </p>
+
+                <p>
+                    Sin embargo, no sos la única persona interesada en las
+                    reliquias. Alguien más sigue las mismas pistas... pero no
+                    para proteger la historia, sino para venderla.
+                </p>
+
+                <div class="frase">
+
+                    <span>✦</span>
+
+                    <p>
+                    A partir de este momento la relación que tengas con las personas que se crucen en tu camino y tus decisiones pueden cambiar el rumbo de la aventura.
+                    </p>
+
+                    <span>✦</span>
+
+                </div>
+
+                <button onclick="iniciarHistoria()">
+                    Comenzar la historia
+                </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 1 -->
+
+            <article class="capitulo" id="capitulo1">
+
+                <p class="numero">CAPÍTULO I</p>
+
+                <h2>El diario de cuero</h2>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Después del velorio de la abuela fuiste a su casa en busca
+                    del recuerdo de ella y decidiste subir al ático.
+                </p>
+
+                <p>
+                    Ni bien subiste se sintió un olor a madera antigua y a
+                    libros que llevan años guardados. Entre cajas llenas de
+                    fotografías, cartas y recuerdos familiares encontrás una
+                    pequeña cajita de madera súper peculiar, cubierta de polvo.
+                </p>
+
+                <p>
+                    Al levantar la tapa, descubrís un cuaderno de cuero marrón,
+                    con una portada que lleva el nombre de tu abuela bordado.
+                </p>
+
+                <p>
+                    Con el corazón acelerado por encontrar algo que le
+                    pertenecía a tu abuela, comenzás a hojearlo.
+                </p>
+
+                <p>
+                    Hay mapas dibujados a mano, símbolos medievales, croquis de
+                    la Abadía de San Galgano y anotaciones sobre una supuesta
+                    cámara secreta.
+                </p>
+
+                <p>
+                    Las últimas palabras están escritas con una letra desprolija que parecía que no había tenido tanto tiempo para escribirlo.
+                </p>
+
+                <div class="cita">
+
+                    <p>
+                        “Si alguien continúa esta búsqueda, recordá que el
+                        verdadero tesoro nunca fue el oro... 
+                    </p>
+
+                    <p>
+                        Seguí las marcas del caballero y nunca confíes únicamente en lo que ves...”
+                    </p>
+
+                </div>
+
+                <p>
+                    Entre las hojas cae un pequeño mapa incompleto. En la
+                    siguiente hoja se logra ver el dibujo de una espada, con
+                    colores y anotaciones de la misma.
+                </p>
+
+                <p>
+                    Mientras observás el dibujo, escuchás el ruido de una
+                    ventana cerrándose.
+                </p>
+
+                <p>
+                    No debería haber nadie en la casa…
+                </p>
+
+                <h3>¿Qué decidís hacer?</h3>
+
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo2')">
+
+                        <span>
+                            Bajar inmediatamente para averiguar quién entró.
+                        </span>
+
+                    </button>
+
+
+                    <button onclick="mostrarCapitulo('capitulo3')">
+
+                        <span>
+                            Ignorar el ruido y seguir leyendo el diario.
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- CAPÍTULO 2 -->
+
+            <article class="capitulo" id="capitulo2">
+
+                <p class="numero">CAPÍTULO II</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Bajás las escaleras tan rápido como podés, intentando no
+                    hacer ruido. La puerta que da al patio está entreabierta,
+                    pero no hay nadie dentro de la casa.
+                </p>
+
+                <p>
+                    Al salir, alcanzás a ver una figura vestida de negro
+                    alejándose entre los árboles con una carpeta bajo el brazo.
+                </p>
+
+                <div class="dialogo">
+                
+                <p>
+                    —¡Eh! ¡Pará! —gritás.
+                </p>
+
+                </div>
+
+                <p>
+                    La figura gira apenas la cabeza, pero no llegás a verle el
+                    rostro.
+                </p>
+
+                <p>
+                    Intentás alcanzarlo, pero al rato te quedás sin aire.
+                    Cuando llegás al lugar donde estaba, ya no hay nadie.
+                </p>
+
+                <p>
+                    En el suelo encontrás un pequeño trozo de pergamino.
+                    Parece haberse desprendido de la carpeta que llevaba el
+                    desconocido.
+                </p>
+
+                <p>
+                    Tiene dibujada una parte del plano de la Abadía de San
+                    Galgano y el mismo símbolo de la espada que viste en el
+                    diario de tu abuela.
+                </p>
+
+                <p>
+                    Guardás el pergamino en tu mochila.
+                </p>
+
+                <div class="frase">
+
+                    <span>✦</span>
+
+                    <p>
+                        Alguien más está buscando la cámara secreta...
+                        y acaba de adelantarse.
+                    </p>
+
+                    <span>✦</span>
+
+                </div>
+
+                <h3>¿Qué decidís hacer?</h3>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo4')">
+
+
+                        <span>
+                            Ir inmediatamente a la Abadía de San Galgano para comprobar si se dirige para allá.
+                        </span>
+
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo5')">
+
+                        <span>
+                            Visitar el archivo histórico del pueblo para averiguar quién es ésta persona.
+                        </span>
+
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+    ← Volver atrás
+</button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 3 -->
+
+            <article class="capitulo" id="capitulo3">
+
+                <p class="numero">CAPÍTULO III</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Ignorás el ruido y seguís pasando las páginas.
+                </p>
+
+                <p>
+                    De repente encontrás un sobre cuidadosamente pegado a la
+                    contratapa. En su interior hay una carta escrita por tu
+                    abuela pocos días antes de morir.
+                </p>
+
+                <div class="cita">
+
+                    <p>
+                        "Giulia: si decidís continuar mi investigación, recordá que no todas las pistas están donde parecen. Algunas personas harán cualquier cosa por encontrar las reliquias, incluso robar parte de la historia de este pueblo. Si llegás a conocer a un hombre llamado Pietro Bellini, tené cuidado. Hace años lo vi merodeando archivos y monasterios en busca de documentos antiguos. Nunca pude demostrar que era él quien los robaba, pero siempre aparecía cerca de cada desaparición."
+                    </p>
+
+                </div>
+
+                <p>
+                    Terminás de leer con un nudo en la garganta.
+                </p>
+
+                <p>
+                    Antes de guardar la carta, descubrís que en la parte de atrás hay
+                    una imagen de uno de los vitrales de la abadía marcado con
+                    un círculo rojo.
+                </p>
+
+                <div class="frase">
+
+                    <span>✦</span>
+
+                    <p>
+                        Quizás esa sea la primera pista...
+                    </p>
+
+                    <span>✦</span>
+
+                </div>
+
+                <h3>¿Qué decidís hacer?</h3>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo4')">
+
+                        <span>
+                            Viajar directamente a la Abadía de San Galgano para investigar el vitral señalado por tu abuela.
+                        </span>
+
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo6')">
+
+                        <span>
+                            Buscar información sobre Pietro Bellini.
+                        </span>
+
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+    ← Volver atrás
+</button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 4 -->
+
+            <article class="capitulo" id="capitulo4">
+
+                <p class="numero">CAPÍTULO IV</p>
+
+                <h2>La Abadía de San Galgano</h2>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Después de varias horas de viaje, finalmente llegás a la
+                    Abadía de San Galgano.
+                </p>
+
+                <p>
+                    Las antiguas paredes de piedra de las ruinas son tan altas que dan la impresión de que sos miniatura a comparación de la estructura, 
+                    pero no hay techo, entonces la luz del sol pega sobre tu cara e ilumina todo el interior de la abadía. 
+                </p>
+
+                <p>
+                    Sacás el diario de tu abuela y al observar a tu alrededor encontrás el vitral
+                    señalado en la imagen.
+                </p>
+
+                <p>
+                    Decidís acercarte a verlo más de cerca, a simple vista parece igual a los demás, 
+                    hasta que descubrís en él un escrito que casi no se llega a ver:
+                </p>
+
+                <div class="cita">
+
+                    <p>
+                        “Solo quien busque la verdad encontrará el camino.”
+                    </p>
+
+                </div>
+
+                <p>
+                    Debajo de la frase hay una flecha apenas visible 
+                    que apunta hacia una de los antiguos salones de la abadía.
+                </p>
+
+                <p>
+                    Pero de repente escuchás un ruido medio raro...
+                </p>
+
+                <p>
+                    Alguien acaba de entrar a la abadía.
+                </p>
+
+                <h3>¿Qué decidís hacer?</h3>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo7')">
+
+                        <span>
+                            Esconderte y observar quién es.
+                        </span>
+
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo8')">
+
+                        <span>
+                            Acercarte sin esconderte y enfrentarlo.
+                        </span>
+
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+    ← Volver atrás
+</button>
+
+            </article>
+
+                        <!-- CAPÍTULO 5 -->
+
+            <article class="capitulo" id="capitulo5">
+
+                <p class="numero">CAPÍTULO V</p>
+
+                <h2>El archivo histórico</h2>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    El archivo histórico del pueblo está frente a la plaza principal.
+                </p>
+
+                <p>
+                    Al entrar, el encargado te reconoce enseguida.
+                </p>
+
+                <div class="dialogo">
+
+                <p>
+                    —¿Vos sos la nieta de Lucía? Tu abuela pasaba horas acá.
+                </p>
+
+                </div>
+
+                <p>
+                    Le asentís con la cabeza, y con su mano te indica que lo sigas hacia donde él va. Lo seguís, llegan hasta una sala donde habían un par de vitrinas con varios mapas antiguos.
+                </p>
+
+                <p>
+                    Sin embargo, al abrir una de ellas, su expresión cambia por completo.
+                </p>
+
+                <div class="dialogo">
+
+                <p>
+                    —¡No puede ser…!
+                </p>
+
+                </div>
+
+                <p>
+                    No había nada, estaba vacío. Él desesperado buscó en los archivos donde dice si alguien se llevó algo y estaba anotado que esa misma mañana se habían llevado uno de los planos originales del monasterio, pero el señor no recordaba haber visto a nadie en ese horario.
+                </p>
+
+                <div class="dialogo">
+
+                <p>
+                    —Bueno, no hay problema, vendré otro día a buscarlo…
+                </p>
+
+                </div>
+
+                <p>
+                    Mientras salías de la sala encontrás un botón de metal grabado con la figura 
+                    de un lobo en el piso, decidís levantarlo y guardarlo en el bolsillo.
+                </p>
+
+                <p>
+                    Puede convertirse en una pista importante.
+                </p>
+
+                <p>
+                    Aunque dijiste que no pasaba nada, te quedás pensando quién se habrá llevado el mapa…
+                </p>
+
+                <h3>¿Qué decidís hacer?</h3>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo4')">
+                        <span>
+                            Viajar inmediatamente a la abadía.
+                        </span>
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo6')">
+                        <span>
+                            Preguntar si sospecha quién se llevó el mapa.
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+                    ← Volver atrás
+                </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 6 -->
+
+            <article class="capitulo" id="capitulo6">
+
+                <p class="numero">CAPÍTULO VI</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Antes de salir del archivo, pegás media vuelta y preguntás en tono curioso: 
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Y sabe quién podría haberlo sacado? 
+                </p>
+                </div>
+
+                <p>
+                    El encargado suspira antes de responder.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Si tuviera que decirte un nombre… diría Pietro Bellini.
+                </p>
+                </div>
+
+                <div class="cita">
+                <p>
+                    Ese nombre otra vez.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —¿Quién es?
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Nadie sabe mucho de él. Va de pueblo en pueblo haciendo trabajos chiquitos, ni siquiera le generan mucho dinero. Pero cada vez que desaparece una reliquia o un documento antiguo… él estuvo cerca.
+                </p>
+                </div>
+                
+                <p>
+                    El encargado se acerca más a vos, apoyándose en el escritorio de la recepción, mira para los lados como si tendría que esconderse o era prohibido lo que estaba por decir. Y en voz baja dice:
+                </p>
+
+                <div class="dialogo">
+                    <p>
+                        “Dicen que trabaja para coleccionistas extranjeros que pagan fortunas por objetos históricos, pero ésto nunca lo escuchaste de mí…”
+                    </p>
+                </div>
+
+                <div class="cita">
+                <p>
+                    Si éste tal Pietro realmente sigue las mismas pistas que vos, te estás quedando sin tiempo.
+                </p>
+                </div>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo4')">
+                        <span>
+                            Te vas para la abadía enseguida
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+                    ← Volver atrás
+                </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 7 -->
+
+            <article class="capitulo" id="capitulo7">
+
+                <p class="numero">CAPÍTULO VII</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Te escondés detrás de una de las columnas y te quedás callada.
+                </p>
+
+                <p>
+                    Es un hombre que lleva en su espalda una mochila de cuero y entre las manos un pequeño cuaderno. 
+                </p>
+
+                <div class="cita">
+                <p>
+                    No parece un turista.
+                </p>
+                </div>
+
+                <p>
+                    Mira a su alrededor y comienza a husmear y toquetear las paredes de la abadía como si supiera exactamente qué está buscando.
+                </p>
+
+                <p>
+                    Enseguida se para frente a una piedra con un símbolo tallado, que vos no habías visto.
+                </p>
+
+                <p>
+                    Saca una hoja de su cuaderno, compara ambos dibujos y sonríe, diciendo:
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Lo sabía...
+                </p>
+                </div>
+
+                <p>
+                    No llegabas a ver bien el símbolo y quisiste acomodarte para verlo mejor, y en ese momento se te cae la lapicera del bolsillo de la campera haciendo que el se dé cuenta que había alguien más.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —¿Quién está ahí? —pregunta.
+                </p>
+                </div>
+
+                <p>
+                    Ya no sirve que te escondas. Salís y durante unos segundos ninguno de los dos dice una palabra, hasta que vos decís con firmeza.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Esta parte de la abadía está cerrada al público 
+                </p>
+                </div>
+
+                <p>
+                    El hombre levanta el borde de su comisura, medio pícaro.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Entonces supongo que vos tampoco deberías estar acá.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Yo no vine a robar.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —¿Y quién dijo que yo sí?— Desafiante y presumido.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Porque acabás de comparar un símbolo histórico con un papel que seguramente no es tuyo.
+                </p>
+                </div>
+
+                <p>
+                    Rápidamente guarda la hoja en la mochila.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Tenés buena vista.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Y vos malas excusas.
+                </p>
+                </div>
+
+                <p>
+                    El desconocido ríe por lo bajo.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Me llamo Pietro. ¿Y vos?
+                </p>
+                </div>
+
+                <p>
+                    No le respondés.
+                </p>
+
+                <div class="cita">
+                <p>
+                    ¿Quién se cree que es?
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Bueno... ya nos volveremos a cruzar.— dice
+                </p>
+                </div>
+
+                <p>
+                    Antes de que puedas detenerlo, desaparece de la abadía.
+                </p>
+
+                <p>
+                    Sin embargo, algo cae de su mochila... Una moneda de bronce con un lobo grabado, y la terminas guardando porque quizás te sirva para después.
+                </p>
+
+                <h3>¿Qué decidís hacer?</h3>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo9')">
+                        <span>
+                            Seguir a Pietro antes de perder su rastro.
+                        </span>
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo10')">
+                        <span>
+                            Examinar el símbolo que Pietro estaba observando.
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+                    ← Volver atrás
+                </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 8 -->
+
+            <article class="capitulo" id="capitulo8">
+
+                <p class="numero">CAPÍTULO VIII</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Al decidir no esconderte, caminás directamente hacia el desconocido.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —¡Ey… Pará!
+                </p>
+                </div>
+
+                <p>
+                    El hombre gira lentamente.
+                </p>
+
+                <p>
+                    Parece joven, un poco como de tu edad, de cabello oscuro y mirada coqueta y presumida. No parece sorprenderse por tu presencia.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Qué linda bienvenida... —dice con una sonrisa.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —¿Qué hacés acá?
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Paseando.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Con una mochila llena de mapas antiguos.— decís con firmeza
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —¿Y vos? ¿Paseando con un diario de expedición?
+                </p>
+                </div>
+
+                <p>
+                    Sentís un escalofrío.
+                </p>
+
+                <div class="cita">
+                <p>
+                    ¿Cómo sabe eso?
+                </p>
+                </div>
+
+                <p>
+                    Después de decir eso señala con su mentón tus manos con el diario y vés que reconoce el cuaderno de tu abuela. Al ver su expresión por instinto, abrazás el diario contra tu pecho.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —No te acerques.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Tranquila. No vine por tu cuaderno.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —¿Entonces?
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Busco lo mismo que vos.
+                </p>
+                </div>
+
+                <div class="cita">
+                <p>
+                    Los dos saben exactamente de qué está hablando el otro.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Las reliquias de San Galgano... —murmurás.
+                </p>
+                </div>
+
+                <p>
+                    Pietro asiente con picardía.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —La diferencia es que vos querés encerrarlas en un museo.
+                </p>
+                </div>
+
+                <p>
+                    Antes de que termine su oración, hablás encima y decís:
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    — Yo quiero terminar lo que empezó mi abuela y devolverlas al pueblo.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —Y yo quiero venderlas.
+                </p>
+                </div>
+
+                <p>
+                    Sin decir nada más, Pietro con un rápido movimiento desaparece entre las ruinas, dejando en el suelo un papel.
+                </p>
+
+                <h3>¿Qué decidís hacer?</h3>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo9')">
+                        <span>
+                            Perseguir a Pietro antes de que escape.
+                        </span>
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo19')">
+                        <span>
+                            Abrir el papel que dejó caer.
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+                    ← Volver atrás
+                </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 9 -->
+
+            <article class="capitulo" id="capitulo9">
+
+                <p class="numero">CAPÍTULO IX</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Corrés detrás de Pietro. Él corre muy rápido entre las ruinas, como si conociera cada rincón de la abadía.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —¡Esperá! —gritás.
+                </p>
+                </div>
+
+                <div class="dialogo">
+                <p>
+                    —¡No tengo tiempo! —responde sin detenerse.
+                </p>
+                </div>
+
+                <p>
+                    Lo seguís por detrás hasta llegar a un viejo puente de madera que cruza un profundo precipicio. Pietro lo saltó como si nada.
+                </p>
+
+                <p>
+                    Cuando querés cruzar el puente caminando, porque digamos que vos no tenés tanta habilidad para pegar un salto así, escuchás un crujido. Las tablas del puente ceden bajo tus pies.
+                </p>
+
+                <div class="frase">
+                <p>
+                    Tenés apenas unos segundos para reaccionar.
+                </p>
+                </div>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo18')">
+                        <span>
+                            Cruzás el puente lo más rápido posible y corrés el riesgo de caerte.
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+                    ← Volver atrás
+                </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 10 -->
+
+            <article class="capitulo" id="capitulo10">
+
+                <p class="numero">CAPÍTULO X</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Decidís acercarte hasta la pared que él estaba observando. Al iluminarla con la linterna del celular descubrís una forma de espada.
+                </p>
+
+                <p>
+                    Te acordás del dibujo en el diario de tu abuela y apoyás el pergamino sobre la piedra. Las marcas coinciden. De repente, un fuerte ruido rompe el silencio.
+                </p>
+
+                <p>
+                    Una parte del piso se mueve lentamente y deja al descubierto una escalera de piedra que baja hacia un lugar oscuro. Sin pensarlo, bajás. Apenas llegás al final, escuchás pasos detrás de vos.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Sabía que ibas a encontrar la entrada —dice una voz que ya habías escuchado.
+                </p>
+                </div>
+
+                <div class="cita">
+                <p>
+                    Es Pietro.
+                </p>
+                </div>
+                
+                <p>
+                    Antes de que puedas reaccionar, el piso se vuelve a cerrar. Se acaban de quedar atrapados bajo la abadía.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Bueno... parece que ahora tenemos un problema más grande que nuestras diferencias.— con astucia y al mismo tiempo picardía.
+                </p>
+                </div>
+
+                <h3>¿Qué decidís hacer?</h3>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo11')">
+                        <span>
+                            Proponer una tregua para encontrar la salida.
+                        </span>
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo12')">
+                        <span>
+                            Desconfiar de Pietro y buscar la salida por tu cuenta.
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+                    ← Volver atrás
+                </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 11 -->
+
+            <article class="capitulo" id="capitulo11">
+
+                <p class="numero">CAPÍTULO XI</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Mirando alrededor, te das cuenta y aceptás que salir de la cámara sola va a ser imposible.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Bueno... aunque no me guste la idea hay que salir de ésta juntos— das un fuerte suspiro
+                </p>
+                </div>
+
+                <p>
+                    Pietro sonríe y hace una cara de: viste, al final ibas a ablandar. Y no te gusta esa idea pero no te queda de otra. Entonces, él abre su mochila y, por una extraña razón, te muestra lo que llevaba ocultando: mapas antiguos, dibujos de la abadía y varias notas sobre la investigación.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —No robé todo por capricho —dice—. Cada documento es una pieza del rompecabezas.
+                </p>
+                </div>
+
+                <p>
+                    Aunque seguís sin justificar sus robos, comprendés que conoce la abadía casi tanto como tu abuela. Uniendo sus mapas con el diario de ella descubren juntos una inscripción:
+                </p>
+
+                <div class="cita">
+
+                    <p>
+                        "Solo quienes dejen atrás la ambición podrán abrir el camino."
+                    </p>
+
+                </div>
+
+                <p>
+                    Y deciden empezar a recorrer ese sucucho, se meten a un pasillo muy corto que los dirige a otra sala donde hay dos antiguos pedestales de piedra. En uno hay una bolsa llena de antiguas monedas de oro. En el otro, un viejo libro.
+                </p>
+
+                <h3>¿Qué decidís que pase?</h3>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo13')">
+                        <span>
+                            Agarrar el libro
+                        </span>
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo15')">
+                        <span>
+                            Pietro agarra las monedas, corre y se mete en un pasillo y lo perdés de vista. Vos te rendís de perseguirlo y seguís las pistas, podés salir de la cámara pero todavía sin encontrar las reliquias. Y ahí lo vés a Pietro… sostiene entre sus manos la espada, la armadura y el antiguo casco de San Galgano. Te mira en silencio.
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+                    ← Volver atrás
+                </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 12 -->
+
+            <article class="capitulo" id="capitulo12">
+
+                <p class="numero">CAPÍTULO XII</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Ignorás que Pietro está ahí y comenzás a recorrer sola ese sucucho, entrás a uno de los pasillos, sin saber a dónde te dirige. Te chocás con una puerta de piedra. Intentás abrirla, pero no se mueve.
+                </p>
+
+                <p>
+                    Detrás de vos, Pietro suspira sobre tus hombros.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Tengo razón... hace falta resolver el acertijo primero, no seas terca.
+                </p>
+                </div>
+
+                <p>
+                    Por orgullo decidís intentar, con la poca fuerza que tenés, abrirla sola.
+                </p>
+
+                <p>
+                    Pietro se dá cuenta que no vas a cambiar de idea, pega la vuelta y se vá a recorrer otros pasillos dentro de la cámara.
+                </p>
+
+                <p>
+                    Estás cansada y ya no tenés fuerzas, pero sin saber cómo hiciste volviste a sala principal, pero descubrís que es demasiado tarde.
+                </p>
+
+                <p>
+                    Pietro ya encontró las reliquias.Él sostiene entre sus manos la espada, la armadura y el antiguo casco de San Galgano. Te mira en silencio.
+                </p>
+
+                <p>
+                    Ahora todo depende de la decisión que él tome... 
+                </p>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo14')">
+                        <span>
+                            Creés que Pietro no es sólo un cazafortunas y tratás de convencerlo
+                        </span>
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo15')">
+                        <span>
+                            Le gritás a Pietro que te devuelva eso, que no le pertenece y que lo que sostenía en sus manos era logro de tu abuela, no suyo.
+                        </span>
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo16')">
+                        <span>
+                            Ninguno se dice nada, se quedan unos minutos mirándose, con un toque de amor (?), es como que al final y sin querer en ésta travesía lo empezaste a querer…
+                        </span>
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo17')">
+                        <span>
+                            Rompés en llanto y caés al piso sobre tus rodillas, al frente de él. Pietro suelta las reliquias y se acerca a consolarte.
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+                    ← Volver atrás
+                </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 13 -->
+
+            <article class="capitulo" id="capitulo13">
+
+                <p class="numero">CAPÍTULO XIII: El verdadero tesoro</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Tomás el antiguo libro de los monjes y lo colocás sobre el pedestal.
+                </p>
+
+                <p>
+                    Durante unos segundos no ocurre nada.
+                </p>
+
+                <p>
+                    Entonces, un golpe sacude toda la cámara. Las paredes se mueven lentamente y, frente a ustedes, se abre una enorme sala iluminada por un rayo de luz que entra desde el techo.
+                </p>
+
+                <p>
+                    En el centro están el casco, la armadura y el escudo de San Galgano. Permanecieron ocultos durante siglos. Pietro observa las reliquias sin decir una palabra.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Con esto podría hacerme millonario... —murmura.
+                </p>
+                </div>
+
+                <p>
+                    Lo mirás fijamente.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —O podrías hacer algo mucho más importante.
+                </p>
+                </div>
+
+                <p>
+                    Después de un largo silencio, Pietro sonríe y te mira con dulzura.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Tu abuela tenía razón... Algunas cosas valen más que el dinero.
+                </p>
+                </div>
+
+                <p>
+                    Juntos entregan las reliquias al pueblo de San Galgano, donde son protegidas y exhibidas como parte de su patrimonio histórico.
+                </p>
+
+                <p>
+                    Estás orgullosa de haber concluído la investigación de tu abuela y tanto, el nombre de Pietro, el nombre de tu abuela y el tuyo pasan a formar parte de la historia del pueblo.
+                </p>
+
+                <p>
+                    Pietro abandona para siempre la búsqueda de tesoros y comienza a trabajar junto a vos en nuevas expediciones arqueológicas.
+                </p>
+
+                <div class="cita">
+                <p>
+                    Lo que empezó como una rivalidad terminó convirtiéndose en una aventura que los unió para siempre.
+                </p>
+                </div>
+
+                <div class="frase">
+
+                    <span>✦</span>
+
+                    <p>
+                        FIN
+                    </p>
+
+                    <span>✦</span>
+
+                </div>
+
+            <button class="boton-reiniciar" onclick="reiniciarHistoria()">
+                ↻ Reiniciar historia
+            </button>
+
+            </article>
+            
+
+
+            <!-- CAPÍTULO 14 -->
+
+            <article class="capitulo" id="capitulo14">
+
+                <p class="numero">CAPÍTULO XIV</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Cuando Pietro sostiene las reliquias en sus manos, lo hacés entrar en razón y comprende que venderlas sería destruir siglos de historia. Decide entregarlas al pueblo junto a vos. Ambos continúan explorando antiguos sitios históricos y su amistad se transforma, con el tiempo, en una historia de amor.
+                </p>
+
+                <div class="frase">
+
+                    <span>✦</span>
+
+                    <p>
+                        FIN
+                    </p>
+
+                    <span>✦</span>
+
+                </div>
+            
+            <button class="boton-reiniciar" onclick="reiniciarHistoria()">
+                ↻ Reiniciar historia
+            </button>
+
+            </article>
+
+
+            <!-- CAPÍTULO 15 -->
+
+            <article class="capitulo" id="capitulo15">
+
+                <p class="numero">CAPÍTULO XV</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Pietro escapa con las reliquias antes de que puedas detenerlo. Nunca volvés a verlo y el tesoro desaparece para siempre en una colección privada.
+                </p>
+
+                <div class="frase">
+
+                    <span>✦</span>
+
+                    <p>
+                        FIN
+                    </p>
+
+                    <span>✦</span>
+
+                </div>
+
+            <button class="boton-reiniciar" onclick="reiniciarHistoria()">
+                ↻ Reiniciar historia
+            </button>
+
+            </article>
+            
+
+
+            <!-- CAPÍTULO 16 -->
+
+            <article class="capitulo" id="capitulo16">
+
+                <p class="numero">CAPÍTULO XVI</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Por ese lapso de tiempo, la abadía comienza a derrumbarse, como Pietro había sacado las reliquias de su lugar, el lugar se caía a pedazos. Empujás a Pietro hacia la salida para salvarle la vida, pero quedás atrapada bajo los escombros.
+                </p>
+
+                <p>
+                    Años después, arrepentido por todo lo ocurrido, Pietro abandona el mercado negro, estudia arqueología y dedica su vida a restaurar monumentos históricos en honor a vos y a tu abuela.
+                </p>
+
+                <div class="frase">
+
+                    <span>✦</span>
+
+                    <p>
+                        FIN
+                    </p>
+
+                    <span>✦</span>
+
+                </div>
+
+            <button class="boton-reiniciar" onclick="reiniciarHistoria()">
+                ↻ Reiniciar historia
+            </button>
+
+            </article>
+            
+
+
+            <!-- CAPÍTULO 17 -->
+
+            <article class="capitulo" id="capitulo17">
+
+                <p class="numero">CAPÍTULO XVII</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Te das cuenta que ambos perseguían algo mucho más grande que un tesoro: uno buscaba preservar el pasado y el otro encontrar una segunda oportunidad. y después de un consuelo de él hacia vos, salen de la abadía y juntos deciden proteger el secreto de la cámara y revelar al pueblo únicamente las reliquias, para que nadie vuelva a intentar saquear ese lugar.
+                </p>
+
+                <div class="frase">
+
+                    <span>✦</span>
+
+                    <p>
+                        FIN
+                    </p>
+
+                    <span>✦</span>
+
+                </div>
+
+            <button class="boton-reiniciar" onclick="reiniciarHistoria()">
+                ↻ Reiniciar historia
+            </button>
+
+            </article>
+            
+
+
+        <!-- CAPÍTULO 18 -->
+
+            <article class="capitulo" id="capitulo18">
+
+                <p class="numero">CAPÍTULO XVIII</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Te caíste al precipicio, tuviste una muerte muy trágica. Además que nadie más supo nada de vos, nadie te encontró durante meses y te tomaron por desaparecida… 
+                </p>
+
+                <p>
+                    Y Pietro Bellini se salió con la suya, encontró las reliquias y las vendió al mejor postor, se quedó con  la fortuna y se volvió un famoso millonario.
+                </p>
+
+                <div class="frase">
+
+                    <span>✦</span>
+
+                    <p>
+                        FIN
+                    </p>
+
+                    <span>✦</span>
+
+                </div>
+
+            <button class="boton-reiniciar" onclick="reiniciarHistoria()">
+                ↻ Reiniciar historia
+            </button>
+
+            </article>
+
+            <!-- CAPÍTULO 19 -->
+
+            <article class="capitulo" id="capitulo19">
+
+                <p class="numero">CAPÍTULO XIX</p>
+
+                <div class="decoracion">❦</div>
+
+                <p>
+                    Ni bien abrís ese papel, se te hace demasiado conocido… 
+                </p>
+
+                <p>
+                    Claro! Es una fotocopia del dibujo del diario de tu abuela y lo apoyás sobre la piedra. Las marcas coinciden. De repente, un fuerte ruido rompe el silencio.
+                </p>
+
+                <p>
+                    Una parte del piso se mueve lentamente y deja al descubierto una escalera de piedra que baja hacia un lugar oscuro. Sin pensarlo, bajás. Apenas llegás al final, escuchás pasos detrás de vos.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Sabía que ibas a encontrar la entrada —dice una voz que ya habías escuchado.
+                </p>
+                </div>
+
+                <div class="cita">
+                <p>
+                    Es Pietro.
+                </p>
+                </div>
+                
+                <p>
+                    Antes de que puedas reaccionar, el piso se vuelve a cerrar. Se acaban de quedar atrapados bajo la abadía.
+                </p>
+
+                <div class="dialogo">
+                <p>
+                    —Bueno... parece que ahora tenemos un problema más grande que nuestras diferencias.— con astucia y al mismo tiempo picardía.
+                </p>
+                </div>
+
+                <h3>¿Qué decidís hacer?</h3>
+
+                <div class="decisiones">
+
+                    <button onclick="mostrarCapitulo('capitulo11')">
+                        <span>
+                            Proponer una tregua para encontrar la salida.
+                        </span>
+                    </button>
+
+                    <button onclick="mostrarCapitulo('capitulo12')">
+                        <span>
+                            Desconfiar de Pietro y buscar la salida por tu cuenta.
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="boton-volver" onclick="volverAtras()">
+                    ← Volver atrás
+                </button>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- DECORACIÓN INFERIOR -->
+
+    <div class="ornamento inferior">
+        ❦ ─────────────── ✦ ─────────────── ❦
+    </div>
+
+<script>
+
+    // Recuperar el progreso guardado
+    // Si no hay nada guardado, empezar desde el prólogo
+    let historial = JSON.parse(localStorage.getItem("historialSanGalgano")) || ["prologo"];
+
+
+    function mostrarCapitulo(id) {
+
+        historial.push(id);
+
+        // Guardar el progreso
+        localStorage.setItem(
+            "historialSanGalgano",
+            JSON.stringify(historial)
+        );
+
+        const capitulos = document.querySelectorAll(".capitulo");
+
+        capitulos.forEach(capitulo => {
+            capitulo.classList.remove("activo");
+        });
+
+        document.getElementById(id).classList.add("activo");
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+    function irAlPrologo() {
+
+    // Volver a dejar el historial empezando desde el prólogo
+    historial = ["prologo"];
+
+    // Guardar el cambio
+    localStorage.setItem(
+        "historialSanGalgano",
+        JSON.stringify(historial)
+    );
+
+    // Ocultar todos los capítulos
+    const capitulos = document.querySelectorAll(".capitulo");
+
+    capitulos.forEach(capitulo => {
+        capitulo.classList.remove("activo");
+    });
+
+    // Mostrar el prólogo
+    document.getElementById("prologo").classList.add("activo");
+
+    // Subir al comienzo de la página
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+    function volverAtras() {
+
+        if (historial.length <= 1) {
+            return;
+        }
+
+        historial.pop();
+
+        // Guardar el historial actualizado
+        localStorage.setItem(
+            "historialSanGalgano",
+            JSON.stringify(historial)
+        );
+
+        const anterior = historial[historial.length - 1];
+
+        const capitulos = document.querySelectorAll(".capitulo");
+
+        capitulos.forEach(capitulo => {
+            capitulo.classList.remove("activo");
+        });
+
+        document.getElementById(anterior).classList.add("activo");
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+    function iniciarHistoria() {
+
+    const musica = document.getElementById("musicaFondo");
+
+    musica.play();
+
+    mostrarCapitulo("capitulo1");
+}
+
+function reiniciarHistoria() {
+
+    // Crear un nuevo historial empezando desde el prólogo
+    historial = ["prologo"];
+
+    // Guardar el nuevo comienzo
+    localStorage.setItem(
+        "historialSanGalgano",
+        JSON.stringify(historial)
+    );
+
+    // Mostrar el Capítulo 1
+    const capitulos = document.querySelectorAll(".capitulo");
+
+    capitulos.forEach(capitulo => {
+        capitulo.classList.remove("activo");
+    });
+
+    document.getElementById("prologo").classList.add("activo");
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+    // Mostrar automáticamente el último capítulo
+    // cuando se vuelve a abrir o actualizar la página
+    const ultimoCapitulo = historial[historial.length - 1];
+
+    const capitulos = document.querySelectorAll(".capitulo");
+
+    capitulos.forEach(capitulo => {
+        capitulo.classList.remove("activo");
+    });
+
+    const capituloGuardado = document.getElementById(ultimoCapitulo);
+
+    if (capituloGuardado) {
+        capituloGuardado.classList.add("activo");
+    }
+
+</script>
+
+</body>
+
+</html>
